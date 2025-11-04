@@ -1,0 +1,6 @@
+### Hybrid Intelligence
+
+LLM = brain (reasoning, planning, language)
+LSTM = specialist (price prediction)
+Tools = hands (fetch data, run model)
+
