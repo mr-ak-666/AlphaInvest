@@ -7,11 +7,11 @@ import yfinance as yf
 from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 from tensorflow.keras.models import load_model
-from langchain_openai import ChatOpenAI
-from langchain_core.tools import tool
-from langchain.agents import create_tool_calling_agent, AgentExecutor
-from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from langchain import hub
+from langchain.chat_models import ChatOpenAI
+from langchain.tools import tool
+from langchain.agents import initialize_agent, AgentType
+
+
 
 # Set your OpenAI API key (get one from https://platform.openai.com/account/api-keys)
 os.environ["OPENAI_API_KEY"] = ""
@@ -59,15 +59,11 @@ def predict_stock_price(symbol: str, days_ahead: int = 1) -> str:
         return f"Error in prediction: {str(e)}"
 
 # LLM setup (using OpenAI; replace with other providers if needed)
-llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+llm = ChatOpenAI(model_name="gpt-4o-mini", temperature=0)
 
-# Pull the prompt from LangChain hub (or define custom)
-prompt = hub.pull("hwchase17/openai-functions-agent")  # Basic agent prompt for tool calling
-
-# Create the agent
+# Create the agent using OpenAI functions agent
 tools = [get_stock_data, predict_stock_price]
-agent = create_tool_calling_agent(llm, tools, prompt)
-agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
+agent = initialize_agent(tools, llm, agent=AgentType.OPENAI_FUNCTIONS, verbose=True)
 
 # Example usage
 if __name__ == "__main__":

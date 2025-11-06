@@ -1,0 +1,7 @@
+yfinance
+numpy
+scikit-learn
+tensorflow
+langchain-core
+langchain-openai
+langchain-community
