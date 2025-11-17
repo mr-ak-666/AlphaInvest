@@ -1,0 +1,58 @@
+{
+    "sector": "Agritech",
+    "location": "Pune, Maharashtra",
+    "user_prompt": "Looking for sustainable agritech ideas for semi-urban areas",
+  
+    "target_audience": {
+      "age_group": "25-45",
+      "income_level": "Middle-class",
+      "education_level": "Diploma and above",
+      "lifestyle": "Health-conscious, tech-aware"
+    },
+  
+    "budget": {
+      "investment_range": "₹5 lakhs",
+      "funding_type": "Bootstrapped"
+    },
+  
+    "available_resources": {
+      "physical": "1-acre farmland",
+      "human": "Local labor",
+      "technical": "Internet, basic machinery"
+    },
+  
+    "local_needs_or_challenges": [
+      "Low crop yield",
+      "Lack of cold storage"
+    ],
+  
+    "business_model_preference": "B2C with subscription option",
+  
+    "innovation_or_sustainability_focus": "Eco-friendly and tech-enabled",
+  
+    "regulatory_constraints": "Avoid ideas needing heavy chemical licensing",
+  
+    "time_horizon": "Launch within 6 months",
+  
+    "competitor_landscape": "Few agritech startups, mostly traditional farming",
+  
+    "user_skills_or_background": "Software engineer with interest in agriculture",
+  
+    "technology_access_or_preference": "Open to using IoT and mobile apps",
+  
+    "cultural_or_social_context": "Strong community ties, local festivals",
+  
+    "seasonality_or_climate": "Hot summers, monsoon June–Sept",
+  
+    "urbanization_level": "Semi-urban with growing tech parks",
+  
+    "local_economic_trends": "High youth unemployment, demand for skill training",
+  
+    "existing_infrastructure": "Good internet, poor logistics",
+  
+    "government_or_community_support": "Eligible for Startup India and MSME schemes",
+  
+    "risk_appetite": "Moderate risk tolerance",
+  
+    "time_commitment": "Part-time, evenings and weekends only"
+  }
