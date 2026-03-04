@@ -161,3 +161,42 @@ Industry tailwinds
 Consistent compounding
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FINAL RECOMMENDATION FOR AI AGENT
+Use These 3 Primary Sources:
+yfinance
+
+For: All price data, basic fundamentals, historical data, news
+Why: Best API, no limits, easy integration
+Screener.in
+
+For: Deep fundamental analysis, financial statements, ratios
+Why: Clean data, 10+ years history, all metrics
+NSE Official Website
+
+For: Corporate actions, announcements, real-time verification
+Why: Most authoritative source
+Add These for Enhanced Analysis:
+MoneyControl (web scraping)
+
+For: News sentiment, detailed company profiles
+Trendlyne (free tier)
+
+For: Insider trading, analyst recommendations
+RBI Database
+
+For: Macro economic indicators, interest rates
+
