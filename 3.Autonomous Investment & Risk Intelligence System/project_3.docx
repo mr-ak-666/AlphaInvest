@@ -1,0 +1,257 @@
+PROJECT 3 — ALPHAINVEST AGENT
+Autonomous Multi-Agent Investment Intelligence Engine
+
+This is the reasoning layer.
+
+P1:
+
+What?
+
+P2:
+
+Why?
+
+P3:
+
+What should we investigate, compare and potentially do?
+
+But the system doesn't automatically invest your money.
+
+It produces recommendations and scenarios, then asks you for approval.
+
+MULTI-AGENT ARCHITECTURE
+                         SUPERVISOR
+                             │
+          ┌──────────────────┼──────────────────┐
+          │                  │                  │
+          ▼                  ▼                  ▼
+   FUNDAMENTAL           TECHNICAL          NEWS/SENTIMENT
+      AGENT                 AGENT                AGENT
+          │                  │                  │
+          └──────────────────┼──────────────────┘
+                             │
+                             ▼
+                         MACRO AGENT
+                             │
+                             ▼
+                          RISK AGENT
+                             │
+                             ▼
+                       PORTFOLIO AGENT
+                             │
+                             ▼
+                       RESEARCH AGENT
+                             │
+                             ▼
+                     DECISION SYNTHESIS
+                             │
+                             ▼
+                       HUMAN APPROVAL
+SPECIALIZED AGENTS
+1. Fundamental Agent
+
+Analyzes:
+
+Financial statements
+Valuation
+Growth
+Earnings
+Debt
+Cash flow
+Management
+Competitors
+2. Technical Agent
+
+Analyzes:
+
+Trend
+Momentum
+Volume
+Breakout
+Support/resistance
+Volatility
+Market structure
+3. News Agent
+
+Analyzes:
+
+Breaking news
+Company events
+Sector events
+Social sentiment
+Regulatory events
+4. Macro Agent
+
+Analyzes:
+
+Interest rates
+Inflation
+Currency
+Crude
+Bond yields
+Global indices
+Central-bank decisions
+Geopolitical events
+5. Risk Agent
+
+Calculates:
+
+VaR
+CVaR
+Beta
+Sharpe
+Sortino
+Drawdown
+Correlation
+Concentration
+Liquidity
+6. Portfolio Agent
+
+Understands:
+
+Your Holdings
+     ↓
+Allocation
+     ↓
+Sector Exposure
+     ↓
+Correlation
+     ↓
+Risk
+     ↓
+Drawdown
+     ↓
+Portfolio Scenarios
+THE SCENARIO ENGINE
+
+This should be one of AlphaInvest's flagship features.
+
+User:
+
+"What happens to my portfolio if NIFTY falls 20%?"
+
+AlphaInvest:
+
+NIFTY -20%
+
+
+Estimated portfolio impact
+        ↓
+      -14.7%
+
+
+Highest impact:
+1. Banking
+2. Small Cap
+3. High Beta stocks
+
+
+Risk:
+HIGH
+
+
+Expected recovery requirement:
++17.2%
+
+Other scenarios:
+
+Oil +30%
+Interest rates +2%
+USD/INR +10%
+IT sector -20%
+Banking sector -30%
+Global recession
+India-specific crisis
+Market -50%
+HUMAN-IN-THE-LOOP
+
+This is critical.
+
+Your architecture:
+
+AI ANALYSIS
+     ↓
+MULTI-AGENT RESEARCH
+     ↓
+RISK CHECK
+     ↓
+SCENARIO ANALYSIS
+     ↓
+RECOMMENDATION
+     ↓
+HUMAN
+     │
+     ├── APPROVE
+     ├── MODIFY
+     └── REJECT
+
+The AI does not autonomously move your money.
+
+PROJECT 3 SKILLS
+
+This project covers:
+
+LLMs
+Agents
+LangGraph
+Advanced RAG
+Agentic RAG
+Graph RAG
+Tool calling
+Function calling
+Planning
+Reasoning
+Reflection
+Memory
+State management
+MCP
+Multi-agent systems
+Supervisor agents
+Agent communication
+Parallel execution
+Human-in-the-loop
+Guardrails
+Prompt-injection defense
+Agent evaluation
+LLM-as-a-judge
+Observability
+
+This maps particularly well to the growing GenAI/agentic-AI skill cluster seen in current hiring data.
+
+
+
+Autonomous Multi-Agent Risk & Investment Decision Intelligence System
+
+This is your Agentic AI project.
+
+The name Sentinel fits particularly well because the system continuously watches the market and portfolio.
+
+It contains:
+
+Fundamental Agent
+Technical Agent
+News Agent
+Macro Agent
+Risk Agent
+Portfolio Agent
+Research Agent
+Supervisor Agent
+
+Using:
+
+LangGraph
+MCP
+Agentic RAG
+Multi-agent collaboration
+Planning
+Reasoning
+Tool calling
+Memory
+Reflection
+Scenario analysis
+Risk analysis
+Human-in-the-loop
+Guardrails
+Core question:
+
+“Given everything we know, what should be investigated, what are the possible outcomes, and what risks require attention?”

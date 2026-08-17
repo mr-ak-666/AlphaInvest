@@ -1,0 +1,208 @@
+PROJECT 4 — ALPHAINVEST PLATFORM
+Production-Grade Financial AI Platform
+
+This is where you demonstrate:
+
+I don't just build models. I can build and operate an enterprise AI system.
+
+REAL-TIME DATA ARCHITECTURE
+                     DATA SOURCES
+                          │
+       ┌──────────────────┼──────────────────┐
+       ▼                  ▼                  ▼
+   MARKET DATA          NEWS             SOCIAL
+       │                  │                  │
+       └──────────────────┼──────────────────┘
+                          ▼
+                        KAFKA
+                          │
+              ┌───────────┼───────────┐
+              ▼           ▼           ▼
+          STREAMING      BATCH       EVENTS
+              │           │           │
+              └───────────┼───────────┘
+                          ▼
+                    DATA LAKE
+                          │
+             ┌────────────┼────────────┐
+             ▼            ▼            ▼
+        PostgreSQL     Warehouse     Vector DB
+             │                         │
+             └────────────┬────────────┘
+                          ▼
+                   FEATURE STORE
+                          │
+             ┌────────────┴────────────┐
+             ▼                         ▼
+          ML MODELS                AI AGENTS
+             │                         │
+             └────────────┬────────────┘
+                          ▼
+                     RISK ENGINE
+                          │
+                          ▼
+                   DECISION ENGINE
+                          │
+                          ▼
+                   HUMAN APPROVAL
+                          │
+              ┌───────────┴───────────┐
+              ▼                       ▼
+         DASHBOARD                  ALERTS
+FINAL ALPHAINVEST DASHBOARD
+
+The final product should contain:
+
+01 — Market Overview
+NIFTY
+SENSEX
+BANK NIFTY
+VIX
+Global Markets
+Market Breadth
+Market Regime
+Market Risk
+02 — Stock Intelligence
+Fundamentals
+Technicals
+Valuation
+News
+Sentiment
+Forecast
+Risk
+Scenarios
+AI Explanation
+03 — Portfolio
+Current Value
+P&L
+Allocation
+Sector Exposure
+Beta
+Sharpe
+Drawdown
+VaR
+CVaR
+Concentration
+Correlation
+04 — AI Research
+Ask AlphaInvest:
+
+
+"Why did my portfolio fall?"
+
+
+"Analyze TCS."
+
+
+"Compare TCS vs Infosys."
+
+
+"What are my biggest risks?"
+
+
+"What happens if NIFTY falls 20%?"
+
+
+"Explain today's market movement."
+
+
+"Find unusual market activity."
+05 — News Intelligence
+
+Instead of 10,000 articles:
+
+10,000 articles
+       ↓
+Duplicate removal
+       ↓
+Event clustering
+       ↓
+Entity extraction
+       ↓
+Sentiment
+       ↓
+Impact scoring
+       ↓
+50 important events
+06 — AI Agents
+
+Show agent activity:
+
+Fundamental Agent      ✓
+Technical Agent        ✓
+News Agent             ✓
+Macro Agent            ✓
+Risk Agent             ✓
+Portfolio Agent        ✓
+Supervisor              ✓
+07 — Scenario Simulator
+Market -10%
+Market -20%
+Market -30%
+Market -50%
+
+
+Oil +30%
+Rates +2%
+Currency +10%
+Sector Crash
+Global Recession
+08 — Alerts
+🚨 MARKET CRASH ALERT
+
+
+Market drawdown: -12.4%
+
+
+Volatility: EXTREME
+
+
+Portfolio impact: -8.2%
+
+
+Primary drivers:
+• Banking selloff
+• Global market decline
+• Liquidity stress
+• Negative macro event
+
+
+Real-Time Enterprise Financial AI & Investment Intelligence Platform
+
+This is your production engineering + MLOps + LLMOps + cloud + distributed systems project.
+
+This is where everything becomes one production system.
+
+It includes:
+
+Real-time market ingestion
+Kafka
+Spark
+Airflow
+Data lake/lakehouse
+PostgreSQL
+Redis
+Feature store
+MLflow
+Model registry
+FastAPI
+Docker
+Kubernetes
+AWS
+Terraform
+CI/CD
+MLOps
+LLMOps
+Model serving
+vLLM
+Monitoring
+Observability
+Security
+Distributed systems
+Mobile alerts
+Portfolio monitoring
+Crash detection
+Human approval workflow
+Core question:
+
+“How do we operate the entire AlphaInvest intelligence system reliably at production scale, 24×7?”

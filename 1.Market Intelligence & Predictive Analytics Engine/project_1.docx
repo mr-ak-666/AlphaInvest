@@ -1,0 +1,202 @@
+PROJECT 1 — ALPHAINVEST CORE
+Market Data + Quantitative ML/DL Intelligence Engine
+
+
+Main objective:- 
+Build the data and predictive intelligence foundation of AlphaInvest.
+
+It should answer:
+What is happening with a stock, sector, index, portfolio and overall market?
+
+Data
+
+MARKET
+├── OHLCV
+├── Intraday
+├── Volume
+├── Corporate Actions
+├── Indices
+├── Futures
+├── Options
+└── Market Breadth
+
+
+FUNDAMENTALS
+├── Revenue
+├── EBITDA
+├── EPS
+├── Debt
+├── Cash Flow
+├── ROE / ROCE
+├── P/E / P/B
+├── Dividends
+├── Shareholding
+└── Earnings
+
+
+MACRO
+├── Inflation
+├── Interest Rates
+├── Bond Yields
+├── Currency
+├── Crude
+├── Gold
+├── VIX
+├── FII / DII
+└── Global Markets
+
+
+Intelligence :-
+
+
+EDA
+↓
+Feature Engineering
+↓
+Technical Indicators
+↓
+Statistical Analysis
+↓
+ML
+↓
+Deep Learning
+↓
+Time Series
+↓
+Regime Detection
+↓
+Risk Engine
+↓
+Forecasting
+
+
+Models :- 
+
+Use:
+
+Linear/Logistic Regression
+Random Forest
+XGBoost
+LightGBM
+CatBoost
+SVM
+K-Means
+PCA
+ARIMA/SARIMA
+Prophet
+LSTM
+GRU
+Transformer-based forecasting
+
+Outputs
+
+Instead of only:
+Predicted price = ₹X
+
+produce:
+STOCK INTELLIGENCE
+Trend              Bullish
+Momentum           Strong
+Volatility         Medium
+Fundamental        82/100
+Technical          76/100
+Risk               41/100
+
+30-DAY SCENARIOS
+Bull                +18%
+Base                 +8%
+Bear                 -12%
+Stress               -25%
+
+Confidence            72%
+
+
+Market Regime Detection
+Detect:-
+
+Bull
+Bear
+Sideways
+High volatility
+Low volatility
+Panic
+Recovery
+Liquidity stress
+
+This makes the ML system considerably more sophisticated than a generic Kaggle stock predictor.
+
+PROJECT 1 SKILLS :-
+
+Data Scientist
+    Python
+    NumPy
+    Pandas
+    SQL
+    Statistics
+    Probability
+    EDA
+    Feature engineering
+    Hypothesis testing
+    ML
+    Model evaluation
+    SHAP/LIME
+ML Engineer
+    Scikit-learn
+    XGBoost
+    LightGBM
+    CatBoost
+    PyTorch
+    TensorFlow
+    ML pipelines
+    Model selection
+    Hyperparameter optimization
+    Optuna
+Quant / Financial Analytics
+
+Add:
+    CAPM
+    Factor models
+    Portfolio optimization
+    Efficient frontier
+    Sharpe
+    Sortino
+    Beta
+    VaR
+    CVaR
+    Drawdown
+    Volatility
+    Stress testing
+    Backtesting
+
+Data Engineering
+    ETL/ELT
+    Airflow
+    Spark
+    PostgreSQL
+    Data validation
+    Data quality
+    Data lineage
+    Data warehouse/lake
+
+
+Quantitative Market Intelligence & Predictive Analytics Engine
+
+This is your Data Science + ML + DL + Quant project.
+
+It handles:
+
+Market data
+Fundamentals
+Technical analysis
+Macroeconomics
+Time-series forecasting
+ML/DL prediction
+Market regime detection
+Volatility
+Risk
+Portfolio analytics
+Backtesting
+Scenario modelling
+Core question:
+
+“What is happening in the market, and what could happen next?”

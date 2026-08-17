@@ -1,0 +1,222 @@
+PROJECT 2 — ALPHAINVEST INSIGHT
+Financial NLP + LLM + RAG + Multimodal Intelligence Engine
+
+P1 tells you:
+
+WHAT is happening?
+
+P2 tells you:
+
+WHY is it happening?
+
+This is where AlphaInvest starts becoming a genuine AI financial intelligence system rather than an ML project.
+
+DATA SOURCES
+                    FINANCIAL INFORMATION
+                             │
+       ┌─────────────────────┼─────────────────────┐
+       ▼                     ▼                     ▼
+      NEWS                COMPANY              MARKET
+                           FILINGS               DATA
+       │                     │                     │
+       ▼                     ▼                     ▼
+ Headlines              Annual Reports        Price Events
+ Articles                Earnings             Volume
+ Breaking News           Presentations        Options
+       │                     │                     │
+       └─────────────────────┼─────────────────────┘
+                             ▼
+                         NLP ENGINE
+
+Include legally accessible data from:
+
+Financial news
+Exchange disclosures
+Company filings
+Annual reports
+Earnings calls/transcripts
+Investor presentations
+Economic reports
+Public social-media signals
+Regulatory announcements
+
+For X/Twitter, use authorized APIs/data access rather than designing the system around prohibited scraping.
+
+P2 NLP ENGINE
+
+For every document:
+
+Document
+   ↓
+Cleaning
+   ↓
+Tokenization
+   ↓
+NER
+   ↓
+Company Detection
+   ↓
+Event Extraction
+   ↓
+Topic Classification
+   ↓
+Sentiment
+   ↓
+Financial Impact
+   ↓
+Embedding
+   ↓
+Vector Database
+
+Extract:
+
+Company
+Person
+Sector
+Competitor
+Country
+Product
+Government
+Institution
+
+
++
+
+
+Earnings
+Acquisition
+Regulation
+Fraud
+Debt
+Dividend
+Management Change
+Product Launch
+Layoffs
+Legal Event
+Rating Change
+P2 FINANCIAL RAG
+
+Build:
+
+Annual Reports
+Quarterly Results
+Earnings Calls
+Investor Presentations
+News
+Filings
+Economic Reports
+        ↓
+Document Processing
+        ↓
+Chunking
+        ↓
+Embeddings
+        ↓
+Vector DB
+        ↓
+Hybrid Search
+        ↓
+Reranking
+        ↓
+LLM
+        ↓
+Citations + Evidence
+
+User can ask:
+
+"Why did TCS fall today?"
+
+And AlphaInvest should investigate multiple sources and return an evidence-backed explanation.
+
+P2 MULTIMODAL INTELLIGENCE
+
+This is where you can use:
+
+PDF processing
+OCR
+Tables
+Charts
+Images
+Financial statements
+Investor presentations
+Vision-language models
+Multimodal embeddings
+
+For example:
+
+Upload an annual report.
+
+AlphaInvest extracts:
+
+Revenue trends
+Profit trends
+Debt
+Cash flow
+Management commentary
+Risk factors
+Charts
+Tables
+Important events
+
+Then compares the report with previous years.
+
+PROJECT 2 SKILLS
+NLP
+TF-IDF
+N-grams
+Transformers
+BERT
+Hugging Face
+Tokenizers
+NER
+Sentiment analysis
+Information extraction
+Semantic similarity
+Embeddings
+Vector databases
+FAISS/Chroma/Pinecone/Milvus
+RAG
+Hybrid search
+Reranking
+Query rewriting
+Multimodal RAG
+LangChain
+LangSmith
+LangServe
+LLM evaluation
+Groundedness
+Citation tracking
+
+
+
+Financial Knowledge, News & Multimodal Intelligence Engine
+
+This is your NLP + Transformers + LLM + RAG project.
+
+It connects:
+
+Financial news
+Annual reports
+Earnings reports
+Investor presentations
+Regulatory filings
+Economic reports
+Social signals
+Market events
+
+Then applies:
+
+NLP
+NER
+Event extraction
+Sentiment analysis
+Transformers
+Embeddings
+Vector search
+Hybrid RAG
+Reranking
+Multimodal document intelligence
+LLM reasoning
+Core question:
+
+“Why is the market or a particular stock behaving this way?”

@@ -1,0 +1,152 @@
+Targeting roles - 
+
+Data Scientist, ML Engineer,AI Engineer,Gen AI Engineer,Agentic AI Engineer,MLOps Engineer,LLMOps Engineer,
+Data Engineer,Data Analyst,AI/ML Systems Engineer
+
+
+ALPHAINVEST
+AI-Powered Financial Market Intelligence, Risk & Investment Decision Platform
+
+                         ALPHAINVEST
+                              │
+                              ▼
+┌──────────────────────────────────────────────────────────────┐
+│ PROJECT 1                                                    │
+│                                                              │
+│ ALPHAINVEST CORE                                             │
+│ Market Data + ML/DL + Quantitative Intelligence Engine       │
+│                                                              │
+│ "WHAT IS HAPPENING IN THE MARKET?"                           │
+└─────────────────────────────┬────────────────────────────────┘
+                              │
+                              ▼
+┌──────────────────────────────────────────────────────────────┐
+│ PROJECT 2                                                    │
+│                                                              │
+│ ALPHAINVEST INSIGHT                                          │
+│ Financial NLP + LLM + RAG + Multimodal Intelligence Engine  │
+│                                                              │
+│ "WHY IS IT HAPPENING?"                                       │
+└─────────────────────────────┬────────────────────────────────┘
+                              │
+                              ▼
+┌──────────────────────────────────────────────────────────────┐
+│ PROJECT 3                                                    │
+│                                                              │
+│ ALPHAINVEST AGENT                                            │
+│ Multi-Agent + Advanced RAG + Decision Intelligence Engine    │
+│                                                              │
+│ "WHAT SHOULD WE INVESTIGATE / CONSIDER DOING?"               │
+└─────────────────────────────┬────────────────────────────────┘
+                              │
+                              ▼
+┌──────────────────────────────────────────────────────────────┐
+│ PROJECT 4                                                    │
+│                                                              │
+│ ALPHAINVEST PLATFORM                                         │
+│ Production + MLOps + LLMOps + Cloud + Real-Time Platform     │
+│                                                              │
+│ "HOW DO WE RUN THIS 24×7 AT ENTERPRISE SCALE?"               │
+└─────────────────────────────┬────────────────────────────────┘
+                              │
+                              ▼
+                 ╔══════════════════════════╗
+                 ║       ALPHAINVEST        ║
+                 ║                          ║
+                 ║  DATA                    ║
+                 ║  ML / DL                 ║
+                 ║  QUANT                   ║
+                 ║  NLP                     ║
+                 ║  LLM / RAG               ║
+                 ║  AGENTS                  ║
+                 ║  RISK                    ║
+                 ║  PORTFOLIO               ║
+                 ║  MLOps / LLMOps          ║
+                 ║  CLOUD                   ║
+                 ║  SYSTEM DESIGN           ║
+                 ║  HUMAN-IN-THE-LOOP       ║
+                 ╚══════════════════════════╝
+
+
+
+P1
+│
+├── Python
+├── NumPy
+├── Pandas
+├── SQL
+├── Statistics
+├── Probability
+├── EDA
+├── Visualization
+├── Feature Engineering
+├── ML
+├── XGBoost / LightGBM
+├── Deep Learning
+├── PyTorch
+├── NLP
+├── Time Series
+├── Financial Analytics
+├── Risk
+└── Backtesting
+        │
+        ▼
+P2
+│
+├── Transformers
+├── Hugging Face
+├── Financial NLP
+├── Embeddings
+├── Vector DB
+├── LLMs
+├── RAG
+├── Advanced RAG
+├── Hybrid Search
+├── Reranking
+├── Multimodal AI
+├── LangChain
+├── LangSmith
+└── LLM Evaluation
+        │
+        ▼
+P3
+│
+├── Agents
+├── LangGraph
+├── MCP
+├── Tool Calling
+├── Planning
+├── Memory
+├── Reflection
+├── Agentic RAG
+├── Graph RAG
+├── Multi-Agent Systems
+├── Human-in-the-loop
+├── Guardrails
+└── Agent Evaluation
+        │
+        ▼
+P4
+│
+├── FastAPI
+├── Kafka
+├── Spark
+├── Airflow
+├── Redis
+├── PostgreSQL
+├── Docker
+├── Kubernetes
+├── AWS
+├── Terraform
+├── GitHub Actions
+├── MLflow
+├── MLOps
+├── LLMOps
+├── Model Serving
+├── vLLM
+├── Monitoring
+├── Observability
+├── Security
+├── Distributed Systems
+├── System Design
+└── High Availability
