@@ -1,152 +1,224 @@
-Targeting roles - 
-
-Data Scientist, ML Engineer,AI Engineer,Gen AI Engineer,Agentic AI Engineer,MLOps Engineer,LLMOps Engineer,
-Data Engineer,Data Analyst,AI/ML Systems Engineer
-
-
-ALPHAINVEST
-AI-Powered Financial Market Intelligence, Risk & Investment Decision Platform
-
                          ALPHAINVEST
                               │
                               ▼
-┌──────────────────────────────────────────────────────────────┐
-│ PROJECT 1                                                    │
-│                                                              │
-│ ALPHAINVEST CORE                                             │
-│ Market Data + ML/DL + Quantitative Intelligence Engine       │
-│                                                              │
-│ "WHAT IS HAPPENING IN THE MARKET?"                           │
-└─────────────────────────────┬────────────────────────────────┘
+              ┌───────────────────────────────┐
+              │        FINANCIAL WORLD        │
+              │                               │
+              │ Stocks • Markets • News       │
+              │ Social Data • Filings         │
+              │ Earnings • Macro Data         │
+              │ Technical • Fundamental Data  │
+              │ Portfolio Data                │
+              └───────────────┬───────────────┘
+                              │
+                     DATA COLLECTION
                               │
                               ▼
-┌──────────────────────────────────────────────────────────────┐
-│ PROJECT 2                                                    │
-│                                                              │
-│ ALPHAINVEST INSIGHT                                          │
-│ Financial NLP + LLM + RAG + Multimodal Intelligence Engine  │
-│                                                              │
-│ "WHY IS IT HAPPENING?"                                       │
-└─────────────────────────────┬────────────────────────────────┘
-                              │
-                              ▼
-┌──────────────────────────────────────────────────────────────┐
-│ PROJECT 3                                                    │
-│                                                              │
-│ ALPHAINVEST AGENT                                            │
-│ Multi-Agent + Advanced RAG + Decision Intelligence Engine    │
-│                                                              │
-│ "WHAT SHOULD WE INVESTIGATE / CONSIDER DOING?"               │
-└─────────────────────────────┬────────────────────────────────┘
-                              │
-                              ▼
-┌──────────────────────────────────────────────────────────────┐
-│ PROJECT 4                                                    │
-│                                                              │
-│ ALPHAINVEST PLATFORM                                         │
-│ Production + MLOps + LLMOps + Cloud + Real-Time Platform     │
-│                                                              │
-│ "HOW DO WE RUN THIS 24×7 AT ENTERPRISE SCALE?"               │
-└─────────────────────────────┬────────────────────────────────┘
-                              │
-                              ▼
-                 ╔══════════════════════════╗
-                 ║       ALPHAINVEST        ║
-                 ║                          ║
-                 ║  DATA                    ║
-                 ║  ML / DL                 ║
-                 ║  QUANT                   ║
-                 ║  NLP                     ║
-                 ║  LLM / RAG               ║
-                 ║  AGENTS                  ║
-                 ║  RISK                    ║
-                 ║  PORTFOLIO               ║
-                 ║  MLOps / LLMOps          ║
-                 ║  CLOUD                   ║
-                 ║  SYSTEM DESIGN           ║
-                 ║  HUMAN-IN-THE-LOOP       ║
-                 ╚══════════════════════════╝
-
-
-
-P1
-│
-├── Python
-├── NumPy
-├── Pandas
-├── SQL
-├── Statistics
-├── Probability
-├── EDA
-├── Visualization
-├── Feature Engineering
-├── ML
-├── XGBoost / LightGBM
-├── Deep Learning
-├── PyTorch
-├── NLP
-├── Time Series
-├── Financial Analytics
-├── Risk
-└── Backtesting
-        │
-        ▼
-P2
-│
-├── Transformers
-├── Hugging Face
-├── Financial NLP
-├── Embeddings
-├── Vector DB
-├── LLMs
-├── RAG
-├── Advanced RAG
-├── Hybrid Search
-├── Reranking
-├── Multimodal AI
-├── LangChain
-├── LangSmith
-└── LLM Evaluation
-        │
-        ▼
-P3
-│
-├── Agents
-├── LangGraph
-├── MCP
-├── Tool Calling
-├── Planning
-├── Memory
-├── Reflection
-├── Agentic RAG
-├── Graph RAG
-├── Multi-Agent Systems
-├── Human-in-the-loop
-├── Guardrails
-└── Agent Evaluation
-        │
-        ▼
-P4
-│
-├── FastAPI
-├── Kafka
-├── Spark
-├── Airflow
-├── Redis
-├── PostgreSQL
-├── Docker
-├── Kubernetes
-├── AWS
-├── Terraform
-├── GitHub Actions
-├── MLflow
-├── MLOps
-├── LLMOps
-├── Model Serving
-├── vLLM
-├── Monitoring
-├── Observability
-├── Security
-├── Distributed Systems
-├── System Design
-└── High Availability
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║  PROJECT 01                                                          ║
+║  ALPHAINVEST MARKET INTELLIGENCE & PREDICTIVE ANALYTICS ENGINE       ║
+║                                                                      ║
+║  "UNDERSTAND THE MARKET"                                             ║
+║                                                                      ║
+║  Raw Data                                                            ║
+║      ↓                                                               ║
+║  ETL / ELT                                                           ║
+║      ↓                                                               ║
+║  Data Cleaning + Validation                                          ║
+║      ↓                                                               ║
+║  EDA + Statistics                                                    ║
+║      ↓                                                               ║
+║  Feature Engineering                                                 ║
+║      ↓                                                               ║
+║  Technical + Fundamental Features                                    ║
+║      ↓                                                               ║
+║  ML / DL Models                                                      ║
+║      ↓                                                               ║
+║  Time-Series Forecasting                                             ║
+║      ↓                                                               ║
+║  Market Regime Detection                                             ║
+║      ↓                                                               ║
+║  Risk & Quantitative Analytics                                       ║
+║      ↓                                                               ║
+║  Backtesting                                                         ║
+║                                                                      ║
+║  OUTPUT:                                                              ║
+║  ├── Market Features                                                ║
+║  ├── Stock Scores                                                    ║
+║  ├── Predictions                                                     ║
+║  ├── Forecasts                                                       ║
+║  ├── Market Regime                                                   ║
+║  ├── Risk Scores                                                     ║
+║  └── Backtest Results                                                ║
+║                                                                      ║
+╚═══════════════════════════════╤══════════════════════════════════════╝
+                                │
+                                │  P1 OUTPUTS
+                                │
+                                ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║  PROJECT 02                                                          ║
+║  ALPHAINVEST FINANCIAL INTELLIGENCE & MULTIMODAL RAG SYSTEM          ║
+║                                                                      ║
+║  "UNDERSTAND WHY THE MARKET IS MOVING"                               ║
+║                                                                      ║
+║  P1 Quantitative Intelligence                                       ║
+║              +                                                       ║
+║  News                                                               ║
+║              +                                                       ║
+║  Social Media                                                       ║
+║              +                                                       ║
+║  Company Filings                                                    ║
+║              +                                                       ║
+║  Annual / Quarterly Reports                                         ║
+║              +                                                       ║
+║  Earnings Calls                                                     ║
+║              +                                                       ║
+║  Investor Presentations                                             ║
+║              ↓                                                       ║
+║       NLP / Transformers                                             ║
+║              ↓                                                       ║
+║       Financial Embeddings                                           ║
+║              ↓                                                       ║
+║       Vector Database                                                ║
+║              ↓                                                       ║
+║       Hybrid Search                                                  ║
+║              ↓                                                       ║
+║       Advanced RAG                                                   ║
+║              ↓                                                       ║
+║       Multimodal Understanding                                       ║
+║              ↓                                                       ║
+║       LLM Reasoning                                                  ║
+║                                                                      ║
+║  OUTPUT:                                                              ║
+║  ├── News Sentiment                                                  ║
+║  ├── Financial Events                                                ║
+║  ├── Company Intelligence                                           ║
+║  ├── Evidence                                                       ║
+║  ├── Market Narratives                                               ║
+║  ├── Risk Factors                                                   ║
+║  ├── Source Citations                                               ║
+║  └── LLM Financial Research                                          ║
+║                                                                      ║
+╚═══════════════════════════════╤══════════════════════════════════════╝
+                                │
+                                │  P1 + P2 KNOWLEDGE
+                                │
+                                ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║  PROJECT 03                                                          ║
+║  ALPHAINVEST AUTONOMOUS INVESTMENT & RISK INTELLIGENCE SYSTEM        ║
+║                                                                      ║
+║  "REASON ACROSS ALL INFORMATION"                                     ║
+║                                                                      ║
+║       P1 Quantitative Intelligence                                   ║
+║                    │                                                 ║
+║                    ├─────────────┐                                   ║
+║                    ▼             ▼                                   ║
+║             P2 Knowledge      P2 RAG                                 ║
+║                    │             │                                   ║
+║                    └──────┬──────┘                                   ║
+║                           ▼                                          ║
+║                     AGENT SYSTEM                                     ║
+║                           │                                          ║
+║         ┌─────────────────┼─────────────────┐                        ║
+║         │                 │                 │                        ║
+║         ▼                 ▼                 ▼                        ║
+║    Fundamental       Technical          News/Sentiment               ║
+║      Agent             Agent               Agent                     ║
+║         │                 │                 │                        ║
+║         ├─────────────────┼─────────────────┤                        ║
+║         ▼                 ▼                 ▼                        ║
+║     Macro Agent       Risk Agent       Portfolio Agent               ║
+║         │                 │                 │                        ║
+║         └─────────────────┼─────────────────┘                        ║
+║                           ▼                                          ║
+║                    SUPERVISOR AGENT                                  ║
+║                           │                                          ║
+║                           ▼                                          ║
+║                    DECISION ENGINE                                   ║
+║                           │                                          ║
+║              ┌────────────┼────────────┐                             ║
+║              ▼            ▼            ▼                             ║
+║            BUY          HOLD         AVOID                           ║
+║                           │                                          ║
+║                           ▼                                          ║
+║                  HUMAN APPROVAL                                      ║
+║                           │                                          ║
+║                           ▼                                          ║
+║                  PORTFOLIO ACTION                                    ║
+║                                                                      ║
+║  OUTPUT:                                                              ║
+║  ├── Investment Opportunities                                       ║
+║  ├── Risk Assessment                                                ║
+║  ├── Portfolio Recommendations                                      ║
+║  ├── Scenario Analysis                                              ║
+║  ├── Confidence Score                                               ║
+║  ├── Evidence-Based Explanation                                     ║
+║  └── Human-Approved Decisions                                       ║
+║                                                                      ║
+╚═══════════════════════════════╤══════════════════════════════════════╝
+                                │
+                                │  P1 + P2 + P3
+                                │
+                                ▼
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║  PROJECT 04                                                          ║
+║  ALPHAINVEST REAL-TIME AI INVESTMENT PLATFORM                       ║
+║                                                                      ║
+║  "RUN THE ENTIRE SYSTEM IN PRODUCTION"                               ║
+║                                                                      ║
+║                    LIVE MARKET DATA                                  ║
+║                          │                                           ║
+║                          ▼                                           ║
+║                    Kafka Streaming                                   ║
+║                          │                                           ║
+║                          ▼                                           ║
+║                Real-Time Processing                                  ║
+║                          │                                           ║
+║              ┌───────────┼────────────┐                              ║
+║              ▼           ▼            ▼                              ║
+║             P1          P2           P3                              ║
+║           Models       RAG         Agents                            ║
+║              │           │            │                              ║
+║              └───────────┼────────────┘                              ║
+║                          ▼                                           ║
+║                 REAL-TIME DECISION ENGINE                            ║
+║                          │                                           ║
+║           ┌──────────────┼──────────────┐                            ║
+║           ▼              ▼              ▼                            ║
+║       Prediction       Risk          Portfolio                       ║
+║           │              │              │                            ║
+║           └──────────────┼──────────────┘                            ║
+║                          ▼                                           ║
+║                    ALERT ENGINE                                      ║
+║                          │                                           ║
+║          ┌───────────────┼────────────────┐                          ║
+║          ▼               ▼                ▼                          ║
+║        Mobile          Email          Dashboard                      ║
+║         Alert           Alert            Alert                       ║
+║                                                                      ║
+║                          │                                           ║
+║                          ▼                                           ║
+║                   HUMAN DECISION                                     ║
+║                          │                                           ║
+║              ┌───────────┼───────────┐                               ║
+║              ▼           ▼           ▼                               ║
+║            Ignore      Review      Approve                           ║
+║                                      │                               ║
+║                                      ▼                               ║
+║                              Portfolio Update                        ║
+║                                      │                               ║
+║                                      ▼                               ║
+║                              CONTINUOUS MONITORING                   ║
+║                                      │                               ║
+║                                      └───────────────┐               ║
+║                                                      ▼               ║
+║                                             BACK TO P1/P2/P3         ║
+║                                             FOR CONTINUOUS LEARNING  ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝

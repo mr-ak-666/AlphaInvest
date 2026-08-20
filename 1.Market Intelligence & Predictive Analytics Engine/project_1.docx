@@ -125,60 +125,6 @@ Liquidity stress
 
 This makes the ML system considerably more sophisticated than a generic Kaggle stock predictor.
 
-PROJECT 1 SKILLS :-
-
-Data Scientist
-    Python
-    NumPy
-    Pandas
-    SQL
-    Statistics
-    Probability
-    EDA
-    Feature engineering
-    Hypothesis testing
-    ML
-    Model evaluation
-    SHAP/LIME
-ML Engineer
-    Scikit-learn
-    XGBoost
-    LightGBM
-    CatBoost
-    PyTorch
-    TensorFlow
-    ML pipelines
-    Model selection
-    Hyperparameter optimization
-    Optuna
-Quant / Financial Analytics
-
-Add:
-    CAPM
-    Factor models
-    Portfolio optimization
-    Efficient frontier
-    Sharpe
-    Sortino
-    Beta
-    VaR
-    CVaR
-    Drawdown
-    Volatility
-    Stress testing
-    Backtesting
-
-Data Engineering
-    ETL/ELT
-    Airflow
-    Spark
-    PostgreSQL
-    Data validation
-    Data quality
-    Data lineage
-    Data warehouse/lake
-
-
 Quantitative Market Intelligence & Predictive Analytics Engine
 
 This is your Data Science + ML + DL + Quant project.
@@ -200,3 +146,87 @@ Scenario modelling
 Core question:
 
 “What is happening in the market, and what could happen next?”
+
+
+
+
+alphainvest/
+│
+├── README.md
+├── requirements.txt
+├── .env
+├── .gitignore
+├── Dockerfile
+├── docker-compose.yml
+│
+├── config/
+│   ├── settings.py
+│   └── logging_config.py
+│
+├── data/
+│   ├── raw/
+│   ├── interim/
+│   ├── processed/
+│   └── external/
+│
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_statistics.ipynb
+│   ├── 04_feature_engineering.ipynb
+│   ├── 05_ml_models.ipynb
+│   ├── 06_time_series.ipynb
+│   ├── 07_deep_learning.ipynb
+│   └── 08_backtesting.ipynb
+│
+├── src/
+│   └── alphainvest/
+│       │
+│       ├── data/
+│       │   ├── collectors/
+│       │   ├── loaders/
+│       │   ├── cleaners/
+│       │   └── validators/
+│       │
+│       ├── features/
+│       │   ├── technical.py
+│       │   ├── fundamental.py
+│       │   ├── macro.py
+│       │   └── feature_pipeline.py
+│       │
+│       ├── analytics/
+│       │   ├── statistics.py
+│       │   ├── risk.py
+│       │   ├── factors.py
+│       │   └── portfolio.py
+│       │
+│       ├── models/
+│       │   ├── classification/
+│       │   ├── regression/
+│       │   ├── forecasting/
+│       │   ├── deep_learning/
+│       │   └── regime/
+│       │
+│       ├── backtesting/
+│       │   ├── engine.py
+│       │   ├── strategies.py
+│       │   └── metrics.py
+│       │
+│       └── utils/
+│           ├── logger.py
+│           └── helpers.py
+│
+├── api/
+│   ├── main.py
+│   ├── routes/
+│   └── schemas/
+│
+├── tests/
+│   ├── test_data.py
+│   ├── test_features.py
+│   ├── test_models.py
+│   └── test_api.py
+│
+└── dashboards/
+    ├── streamlit_app.py
+    └── powerbi/

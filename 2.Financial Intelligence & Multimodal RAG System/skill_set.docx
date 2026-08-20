@@ -1,0 +1,141 @@
+PROJECT 02
+│
+├── 01. FINANCIAL DATA INTELLIGENCE
+│   ├── Financial News
+│   ├── Company Filings
+│   ├── Annual Reports
+│   ├── Quarterly Reports
+│   ├── Earnings Calls
+│   ├── Investor Presentations
+│   ├── Regulatory Announcements
+│   ├── Economic Reports
+│   └── Public Social Data
+│
+├── 02. NLP
+│   ├── Text Preprocessing
+│   ├── Tokenization
+│   ├── TF-IDF
+│   ├── N-Grams
+│   ├── Text Classification
+│   ├── NER
+│   ├── Sentiment Analysis
+│   ├── Financial Sentiment
+│   ├── Topic Modeling
+│   ├── Information Extraction
+│   ├── Event Extraction
+│   ├── Semantic Similarity
+│   └── Document Intelligence
+│
+├── 03. FINANCIAL NLP
+│   ├── Company Entity Recognition
+│   ├── Financial Event Detection
+│   ├── Earnings Event Extraction
+│   ├── Management Sentiment
+│   ├── Risk-Factor Extraction
+│   ├── Market Impact Classification
+│   ├── News Importance Scoring
+│   ├── Event Clustering
+│   └── Financial Knowledge Extraction
+│
+├── 04. TRANSFORMERS
+│   ├── Attention
+│   ├── Self-Attention
+│   ├── Multi-Head Attention
+│   ├── Positional Encoding
+│   ├── Encoder / Decoder
+│   ├── BERT
+│   ├── T5
+│   ├── GPT Architecture
+│   ├── Hugging Face
+│   ├── Tokenizers
+│   └── Fine-Tuning
+│
+├── 05. GENERATIVE AI
+│   ├── LLM Architecture
+│   ├── Prompt Engineering
+│   ├── System Prompts
+│   ├── Few-Shot
+│   ├── Zero-Shot
+│   ├── Structured Output
+│   ├── Function Calling
+│   ├── Tool Calling
+│   ├── Context Management
+│   └── LLM Evaluation
+│
+├── 06. EMBEDDINGS
+│   ├── Text Embeddings
+│   ├── Financial Embeddings
+│   ├── Semantic Search
+│   ├── Similarity Search
+│   ├── Vector Representations
+│   └── Embedding Evaluation
+│
+├── 07. VECTOR DATABASES
+│   ├── FAISS
+│   ├── Chroma
+│   ├── Pinecone
+│   ├── Milvus
+│   ├── Metadata Filtering
+│   └── Vector Indexing
+│
+├── 08. RAG
+│   ├── Document Loading
+│   ├── Document Parsing
+│   ├── Chunking
+│   ├── Chunk Optimization
+│   ├── Retrieval
+│   ├── Reranking
+│   ├── Context Construction
+│   ├── Grounded Generation
+│   ├── Citation Tracking
+│   └── Source Attribution
+│
+├── 09. ADVANCED RAG
+│   ├── Hybrid Search
+│   ├── Query Rewriting
+│   ├── Query Expansion
+│   ├── Multi-Query Retrieval
+│   ├── Parent-Child Retrieval
+│   ├── Metadata Filtering
+│   ├── Corrective RAG
+│   ├── Adaptive RAG
+│   └── Context Engineering
+│
+├── 10. MULTIMODAL AI
+│   ├── PDF Processing
+│   ├── OCR
+│   ├── Tables
+│   ├── Charts
+│   ├── Images
+│   ├── Financial Statements
+│   ├── Document Layout Analysis
+│   ├── Multimodal Embeddings
+│   └── Vision-Language Models
+│
+├── 11. LLM FRAMEWORKS
+│   ├── LangChain
+│   ├── LangSmith
+│   ├── LangServe
+│   ├── Retrieval Chains
+│   ├── Tool Integration
+│   └── Streaming
+│
+├── 12. RAG EVALUATION
+│   ├── Retrieval Accuracy
+│   ├── Context Relevance
+│   ├── Faithfulness
+│   ├── Groundedness
+│   ├── Answer Relevance
+│   ├── Citation Accuracy
+│   └── Hallucination Detection
+│
+└── 13. FINANCIAL AI ASSISTANT
+    ├── Conversational Interface
+    ├── Financial Q&A
+    ├── Stock Research
+    ├── Company Comparison
+    ├── Earnings Analysis
+    ├── News Explanation
+    ├── Portfolio Explanation
+    ├── Source Citations
+    └── Explainable Responses

@@ -1,0 +1,17 @@
+numpy 
+pandas 
+scipy 
+scikit-learn
+matplotlib 
+seaborn 
+plotly
+
+#finance
+yfinance 
+sqlalchemy 
+psycopg2-binary
+
+
+pydantic 
+python-dotenv
+jupyter

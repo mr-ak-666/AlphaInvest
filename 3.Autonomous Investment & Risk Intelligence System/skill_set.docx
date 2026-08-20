@@ -1,0 +1,146 @@
+PROJECT 03
+│
+├── 01. AI AGENTS
+│   ├── Agent Architecture
+│   ├── Agent State
+│   ├── Planning
+│   ├── Reasoning
+│   ├── Task Decomposition
+│   ├── Tool Use
+│   ├── Function Calling
+│   ├── Memory
+│   ├── Reflection
+│   ├── ReAct
+│   └── Autonomous Workflows
+│
+├── 02. SPECIALIZED AGENTS
+│   ├── Fundamental Agent
+│   ├── Technical Agent
+│   ├── News Agent
+│   ├── Sentiment Agent
+│   ├── Macro Agent
+│   ├── Risk Agent
+│   ├── Portfolio Agent
+│   ├── Research Agent
+│   └── Supervisor Agent
+│
+├── 03. LANGGRAPH
+│   ├── Graph Architecture
+│   ├── Nodes
+│   ├── Edges
+│   ├── Conditional Routing
+│   ├── State Management
+│   ├── Checkpoints
+│   ├── Persistence
+│   ├── Human-in-the-Loop
+│   └── Stateful Agents
+│
+├── 04. ADVANCED RAG
+│   ├── Agentic RAG
+│   ├── Graph RAG
+│   ├── Hybrid Retrieval
+│   ├── Multi-Hop Retrieval
+│   ├── Query Planning
+│   ├── Query Decomposition
+│   ├── Self-Reflective RAG
+│   ├── Corrective RAG
+│   └── Adaptive RAG
+│
+├── 05. MCP
+│   ├── MCP Architecture
+│   ├── MCP Servers
+│   ├── MCP Tools
+│   ├── MCP Resources
+│   ├── External APIs
+│   ├── Financial Data Tools
+│   └── Agent-System Integration
+│
+├── 06. MULTI-AGENT SYSTEMS
+│   ├── Supervisor Architecture
+│   ├── Hierarchical Agents
+│   ├── Collaborative Agents
+│   ├── Agent Communication
+│   ├── Parallel Execution
+│   ├── Sequential Execution
+│   ├── Conflict Resolution
+│   └── Consensus
+│
+├── 07. INVESTMENT DECISION INTELLIGENCE
+│   ├── Stock Ranking
+│   ├── Opportunity Detection
+│   ├── Risk Detection
+│   ├── Buy/Hold/Sell Analysis
+│   ├── Evidence Aggregation
+│   ├── Confidence Scoring
+│   ├── Expected Return
+│   ├── Risk-Adjusted Return
+│   └── Decision Explanation
+│
+├── 08. PORTFOLIO INTELLIGENCE
+│   ├── Portfolio Allocation
+│   ├── Asset Allocation
+│   ├── Sector Exposure
+│   ├── Stock Concentration
+│   ├── Correlation
+│   ├── Beta
+│   ├── Volatility
+│   ├── Sharpe
+│   ├── Sortino
+│   ├── Drawdown
+│   ├── VaR
+│   └── CVaR
+│
+├── 09. SCENARIO ENGINE
+│   ├── Bull Scenario
+│   ├── Base Scenario
+│   ├── Bear Scenario
+│   ├── Stress Scenario
+│   ├── Market Crash
+│   ├── Sector Crash
+│   ├── Interest Rate Shock
+│   ├── Currency Shock
+│   ├── Oil Shock
+│   ├── Global Recession
+│   └── Monte Carlo Simulation
+│
+├── 10. RISK INTELLIGENCE
+│   ├── Market Risk
+│   ├── Portfolio Risk
+│   ├── Systemic Risk
+│   ├── Concentration Risk
+│   ├── Liquidity Risk
+│   ├── Tail Risk
+│   ├── Volatility Risk
+│   ├── Drawdown Risk
+│   ├── Contagion Detection
+│   └── Stress Testing
+│
+├── 11. HUMAN-IN-THE-LOOP
+│   ├── Approval Workflow
+│   ├── Reject
+│   ├── Modify
+│   ├── Approve
+│   ├── Decision Checkpoints
+│   ├── Risk Confirmation
+│   └── Audit Trail
+│
+├── 12. AI SAFETY
+│   ├── Guardrails
+│   ├── Prompt Injection Defense
+│   ├── Tool Validation
+│   ├── Output Validation
+│   ├── Hallucination Detection
+│   ├── PII Protection
+│   ├── Responsible AI
+│   └── Financial Decision Boundaries
+│
+└── 13. AGENT EVALUATION
+    ├── Task Success
+    ├── Tool Accuracy
+    ├── Reasoning Quality
+    ├── Groundedness
+    ├── Hallucination Rate
+    ├── Agent Reliability
+    ├── LLM-as-a-Judge
+    ├── Trace Evaluation
+    └── Agent Observability
